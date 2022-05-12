@@ -850,6 +850,11 @@ body {
 }
 
 
+.gardening .plants a {
+    margin-top: 60px;
+}
+
+
 .gardening h1 span {
     color: var(--green);
 }
@@ -878,6 +883,119 @@ body {
     top: 0;
     min-height: 100%;
 }
+
+
+.testimonials {
+    font-family: 'Nunito Sans', sans-serif;
+    text-align: center;
+}
+
+
+.testimonials #header {
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 100px;
+}
+
+
+.testimonials h1 {
+    font-size: 45px;
+    font-weight: 700;    
+}
+
+
+.testimonials h1 span {
+    color: var(--green);
+}
+
+
+.carousel-wrapper {
+    width: 615px;
+    margin: 0 auto;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+
+.testimonials .carousel .carousel-item {
+    height: 317px;
+    width: 615px;
+    border-radius: 10px;
+    box-shadow: 2px 11px 30px rgba(51, 51, 51, 0.08);
+    color: var(--black);
+    padding: 40px 30px;
+}
+
+
+.testimonials .carousel .carousel-item .img-container {
+    display: flex;
+    justify-content: space-between;   
+    height: 80px;
+    position: relative;
+}
+
+
+.testimonials .carousel .carousel-item .img-container .img {
+    width: 70px;
+    height: 70px;
+}
+
+
+.testimonials .carousel .carousel-item .img-container .img img {
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+}
+
+
+.testimonials .carousel .carousel-item .img-container .info {
+    position: absolute;
+    top: 8px;
+    left: 80px;
+}
+
+
+.testimonials .carousel .carousel-item .img-container .rating h3 {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+
+.testimonials .carousel .carousel-item .img-container .rating h3 span {
+    font-weight: 700;
+}
+
+
+.testimonials .carousel .carousel-item .img-container .info h2 {
+    font-size: 22px;
+    height: 700;
+}
+
+
+.testimonials .carousel .carousel-item .img-container .info p {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+
+.testimonials .carousel .carousel-item .txt-container { 
+    text-align: start;
+}
+
+
+.testimonials .carousel .carousel-item .txt-container p {
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: 400;
+    margin-top: 30px;
+}
+
+
+.testimonials .carousel .carousel-item:hover {
+    background-color: var(--green);
+    color: #ffffff;
+}
+
 
 
 
