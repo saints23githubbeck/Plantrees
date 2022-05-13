@@ -961,6 +961,11 @@ body {
 }
 
 
+.testimonials .carousel .carousel-item .img-container .rating .stars-container {
+    display: flex;
+}
+
+
 .testimonials .carousel .carousel-item .img-container .rating h3 span {
     font-weight: 700;
 }
@@ -980,6 +985,7 @@ body {
 
 .testimonials .carousel .carousel-item .txt-container { 
     text-align: start;
+    position: relative;
 }
 
 
@@ -988,12 +994,26 @@ body {
     line-height: 30px;
     font-weight: 400;
     margin-top: 30px;
+    z-index: 10;
 }
 
 
 .testimonials .carousel .carousel-item:hover {
     background-color: var(--green);
     color: #ffffff;
+}
+
+
+.testimonials .carousel .txt-container .comma-wrapper {
+    position: absolute;
+    left: -12px;
+    top: -10px;
+}
+
+
+.testimonials .carousel .txt-container .comma-wrapper img {
+    z-index: -1;
+    filter: opacity(.2);
 }
 
 
