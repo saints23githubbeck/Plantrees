@@ -249,7 +249,7 @@ body {
 }
 
 
-.about-us {
+.about-us.wrapper {
     position: relative;
     min-height: 100vh;
     display: grid;
@@ -260,13 +260,13 @@ body {
 .about-us .leaf-container {
     position: absolute;
     left: 0;
-    top: -4em;
+    top: -4em;                
 }
 
 
 .about-us .left, .right {
     display: flex;
-    align-items: center
+    align-items: flex-start;
 }
 
 
@@ -288,7 +288,7 @@ body {
     height: 100%;
     position: relative;
     z-index: 100;
-    bottom: -60px;
+    bottom: -119px;
     left: 20px;
 }
 
@@ -1015,6 +1015,247 @@ body {
     z-index: -1;
     filter: opacity(.2);
 }
+
+
+.blogs {
+    text-align: center;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+
+.blogs #header {
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 100px;
+}
+
+
+.blogs h1 {
+    font-size: 45px;
+    line-height: 61px;
+    font-weight: 700;
+}
+
+
+.blogs h1 span {
+    color: var(--green);
+}
+
+
+.blogs .blogs-wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 0 100px;
+    margin-top: 70px;
+}
+
+
+.blogs .blogs-wrapper .blog-item {
+    width: 400px;
+    height: 600px;
+    margin: 0 auto;
+    border-radius: 15px;
+    border: 1px solid var(--light-grey);
+}
+
+
+.blogs .blogs-wrapper .blog-item .blog-img {
+    height: 44%;
+    width: 100%;
+}
+
+
+.blogs .blogs-wrapper .blog-item .blog-img img {
+    width: 100%;
+    height: 100%;
+    border-radius: 15px 15px 0 0;
+}
+
+
+.blogs .blogs-wrapper .blog-item .blog-text .header {
+    display: flex;
+    justify-content: space-between;
+    padding: 32px 21px;
+    align-items: center;
+}
+
+
+.blogs .blogs-wrapper .blog-item .blog-text .header a {
+    text-decoration: none;
+    border: 1px solid var(--green);
+    padding: .2rem .6rem;
+    border-radius: 10px;
+    color: var(--green);
+
+    transition: all ease .3s;
+}
+
+
+.blogs .blogs-wrapper .blog-item .blog-text .header a:hover {
+    background-color: var(--green);
+    color: #ffffff;
+}
+
+
+.blogs .blogs-wrapper .blog-item .blog-text .header p {
+    color: var(--green);
+    text-decoration: underline;
+    margin-bottom: 0;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+
+.blogs .blogs-wrapper .blog-item .blog-text .txt-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    text-align: start;
+    padding: 0 19px;
+}
+
+
+.blogs .blogs-wrapper .blog-item .blog-text .txt-wrapper p {
+    color: var(--light-grey);
+}
+
+
+.blogs .blogs-wrapper .blog-item .blog-text a {
+    text-decoration: none;
+    color: var(--light-grey);
+}
+
+
+.blogs .blogs-wrapper .blog-item .blog-text h3 {
+    font-size: 24px;
+    font-weight: 700;
+    align-self: flex-start;
+}
+
+
+.blogs .blogs-wrapper .blog-item:hover .txt-wrapper p,
+.blogs .blogs-wrapper .blog-item:hover .txt-wrapper h3,
+.blogs .blogs-wrapper .blog-item:hover a {
+    color: var(--green);
+}
+
+
+.footer {  
+    height: 557px;
+    margin-top: 100px;
+    padding: 100px 90px;
+    font-family: 'Nunito Sans', sans-serif;
+    background: linear-gradient(98.24deg, #D9F1DF -1.52%, rgba(251, 238, 231, 0.5) 46.37%, #D9F1DF 100.32%);
+}
+
+
+.footer .top {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+
+.footer .top .about-us {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.footer > div h1 {
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 50px;
+}
+
+
+.footer .about-us p {
+    font-size: 18px;
+    font-weight: 400;
+    color: var(--light-grey);
+    width: 90%;
+}
+
+
+.about-us .social-icons {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.about-us .social-icons .social-icon .fab {
+    color: var(--green);
+    font-size: 28px;
+}
+
+
+.footer .contacts ul li {
+    display: inline-block;
+}
+
+
+.footer .contacts .fas {
+    color: var(--green);
+}
+
+
+.footer .contacts ul li span {
+    color: var(--light-grey);
+    margin-left: 27px;
+    font-size: 18px;
+}
+
+
+.footer .useful-links #wrapper li {
+    list-style: none;
+}
+
+
+.footer .top .newsletters .wrapper {
+    width: 100%;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    padding: .1rem .3rem;
+    height: 49px;
+    border-radius: 10px;
+}
+
+
+.footer .top .newsletters .wrapper input {
+    outline: none;
+    border: none;
+    padding-left: 1rem;
+}
+
+
+.footer .top .newsletters .wrapper button {
+    border: none;
+    height: 35px;
+    border-radius: 5px;
+    background-color: var(--green);
+    color: #ffffff;
+    padding: 0 10px;
+}
+
+
+.footer .top .useful-links #wrapper {
+    display: flex;
+}
+
+
+
+.footer .top .useful-links #wrapper li:not(:first-child) {
+    margin-top: 20px;
+}
+
+
+.footer .top .useful-links #wrapper li i {
+    margin-right: 10px;
+}
+
+
+
+
 
 
 
