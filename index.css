@@ -12,6 +12,7 @@
     --black: #212529;
     --light-green: #d9f1e0;
     --light-grey: #676767;
+    --dull-yellow: #FFC850;
 }
 
 
@@ -1004,6 +1005,17 @@ body {
 }
 
 
+.testimonials .carousel .carousel-item .rating .fas {
+    color: var(--dull-yellow);
+}
+
+
+.testimonials .carousel .carousel-item:hover .rating .fas {
+    color: #ffffff;
+
+}
+
+
 .testimonials .carousel .txt-container .comma-wrapper {
     position: absolute;
     left: -12px;
@@ -1188,6 +1200,13 @@ body {
 }
 
 
+.footer .contacts ul,
+.footer .useful-links ul  {
+    margin: 0;
+    padding: 0;
+}
+
+
 .footer .contacts ul li {
     display: inline-block;
 }
@@ -1207,6 +1226,11 @@ body {
 
 .footer .useful-links #wrapper li {
     list-style: none;
+}
+
+
+.footer .useful-links #wrapper .right {
+    margin-left: 20px;
 }
 
 
