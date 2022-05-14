@@ -72,6 +72,12 @@ body {
 }
 
 
+.green-btn:hover {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+
 .nav .call-container svg {
     width: 20px;
     height: 20px;
@@ -1196,7 +1202,7 @@ body {
 
 .about-us .social-icons {
     display: flex;
-    justify-content: space-around;
+    justify-content: flex-start;
     margin-left: 0;
 }
 
@@ -1204,6 +1210,11 @@ body {
 .about-us .social-icons .social-icon .fab {
     color: var(--green);
     font-size: 28px;
+}
+
+
+.about-us .social-icons .social-icon .fab:not(:first-child) {
+    margin-right: 2rem;
 }
 
 
@@ -1303,6 +1314,7 @@ body {
 
 .footer .bottom .footer-wrapper .useful-links-container ul li {
     margin: 0 .5rem;
+    cursor: pointer;
 }
 
 
@@ -1313,6 +1325,18 @@ body {
     color: var(--black);
     list-style: none;
 }
+
+
+.footer .bottom .useful-links-container li {
+    cursor: pointer;
+}
+
+
+
+
+/* home-page section styling */
+
+
 
 
 
