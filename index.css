@@ -1504,6 +1504,109 @@ body {
 
 
 
+/* services-provided section styling */
+
+
+.services-provided {
+    font-family: 'Nunito Sans', sans-serif;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.services-provided h1 {
+    margin-top: 70px;
+    font-weight: 700;
+}
+
+
+.services-provided h1 span {
+    color: var(--green);
+}
+
+
+.services-provided p {
+    font-size: 18px;
+    color: var(--light-grey);
+    font-weight: 400;
+    max-width: 1136px;
+    margin-top: 30px;
+    align-self: center;
+}
+
+
+.services-provided .service-tiles {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    width: 100%;
+    padding: 0 100px;
+}
+
+
+.services-provided .service-tiles .service-tile {
+    max-width: 300px;
+    height: 366px;
+    margin: 0 auto;
+    margin-top: 1rem;
+    border-radius: 15px;
+    text-align: center;
+    cursor: pointer;
+
+    transition: all ease .3s;
+    box-shadow: 2px 11px 30px rgba(5, 51, 51, 0.15);
+
+}
+
+
+.services-provided .service-tiles .service-tile .img-wrapper {
+    margin-top: 30px;
+    position: absolute;
+    margin-left: 62px;
+}
+
+
+.services-provided .service-tiles .service-tile .img-wrapper .overlay-leaf {
+    margin-left: 62px;
+    top: 40px;
+    position: absolute;
+}
+
+
+.services-provided .service-tiles .service-tile h1 {
+    font-size: 24px;
+    font-weight: 700;
+    margin-top: 178px;
+}
+
+
+.services-provided .service-tiles .service-tile p {
+    font-weight: 400;
+    width: 70%;
+    font-size: 16px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+
+.services-provided .service-tiles .service-tile:hover {
+    background-color: var(--green);
+    color: #ffffff;
+}
+
+
+.services-provided .service-tiles .service-tile:hover  section.services-provided > div > div > p {
+    color: #ffffff;
+}
+
+
+.services-provided .service-tiles .service-tile:hover body > section.services-provided > div > div:nth-child(1) > div > div > img {
+    fill: white;
+}
+
+
+
 
 
 
