@@ -1606,6 +1606,81 @@ body {
 }
 
 
+.experience {
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    font-family: 'Nunito Sans', sans-serif;
+    padding: 0 100px;
+}
+
+
+.experience .img-section {
+    position: relative;
+}
+
+
+.experience .img-section .color {
+    position: absolute;
+    width: 313px;
+    height: 629px;
+    background-color: var(--green);
+    left: -0;
+    top: 0;
+    z-index: -10;
+}
+
+
+.experience .img-section .planting {
+    position: absolute;
+    top: 30px;
+    left: 20px;
+}
+
+
+.experience .img-section .overlay {
+    left: 240px;
+    margin-top: 580px;
+    position: absolute;
+    z-index: 20;
+}
+
+.experience .txt-section h1 {
+    font-size: 45px;
+    font-weight: 700;    
+}
+
+
+.experience .txt-section h1 span {
+    color: var(--green);
+}
+
+
+.experience .txt-section p {
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--light-grey);
+    line-height: 28px;
+}
+
+
+.experience .txt-section #starter {
+    margin-top: 50px;
+}
+
+
+.experience .txt-section .icons-wrapper {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+
+.experience .txt-section .green-btn {
+    margin-top: 30px;
+    padding: .3rem .5rem;
+}
+
+
 
 
 
