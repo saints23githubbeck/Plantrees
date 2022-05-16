@@ -1978,6 +1978,38 @@ body {
 }
 
 
+.staff {
+    padding: 0 120px;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.staff h1 {
+    font-size: 45px;
+    font-weight: 800;
+    color: black;
+    line-height: 61px;
+}
+
+
+.staff h1 span {
+    color: var(--green);
+}
+
+
+.staff .txt-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.staff .txt-wrapper p {
+    font-size: 18px;
+    font-weight: 400;
+    color: var(--light-grey);
+    max-width: 956px;
+}
+
+
 
 
 
