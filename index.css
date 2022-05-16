@@ -1672,13 +1672,142 @@ body {
 .experience .txt-section .icons-wrapper {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    margin-bottom: 30px;
 }
 
 
-.experience .txt-section .green-btn {
+.experience .txt-section .icons-wrapper .icon {
+    display: flex;
+    align-items: center;
+    padding: 15px 25px;
+}
+
+
+.experience .txt-section .icons-wrapper .icon .icon-img {
+    width: 67px;
+    height: 67px;
+    background-color: var(--green);
+    border-radius: 50px;
+}
+
+
+.experience .txt-section .icons-wrapper .icon .icon-txt  {
+    display: flex;
+    align-items: center;
+    margin-left: 25px;
+}
+
+
+.experience .txt-section .icons-wrapper .icon .icon-txt p {
+    font-weight: 700;
+    font-size: 24px;
+    color: var(--black);
+}
+
+
+.experience .txt-section a {
+    padding: .4rem .6rem;
+}
+
+
+.choose {
+    min-height: 600px;
+    background-color: var(--dark-green);
+    font-family: 'Nunito', sans-serif;
+    margin-top: 250px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    color: #ffffff;
+}
+
+
+.choose .left {
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    padding-left: 92px;
+    position: relative;
+}
+
+
+.choose .left h1 {
+    font-size: 45px;
+    font-weight: 700;
+    margin-top: 108px;
+}
+
+
+.choose .left p {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
     margin-top: 30px;
-    padding: .3rem .5rem;
 }
+
+
+.choose .left .reasons-wrapper {
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-bottom: 50px;
+    width: 100%;
+    justify-content: space-between;
+}
+
+
+.choose .left .reasons-wrapper .reason {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+}
+
+
+.choose .left .reasons-wrapper .reason .fas {
+    font-size: 37px;
+    margin-right: 20px;
+}
+
+
+.choose .left .reasons-wrapper .reason span {
+    font-weight: 700;
+    font-size: 24px;
+}
+
+
+.choose .left a {
+    z-index: 20;
+}
+
+
+.choose .left .overleaf {
+    position: absolute;
+    left: -10px;
+    z-index: 1;
+}
+
+
+.choose .right {
+    position: relative;
+}
+
+
+.choose .right .image-wrapper {
+    margin-top: 100px;
+}
+
+
+.choose .right .overleaf {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+
+
+
+
+
+
 
 
 
