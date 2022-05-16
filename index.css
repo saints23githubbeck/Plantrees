@@ -1571,7 +1571,7 @@ body {
 .services-provided .service-tiles .service-tile .img-wrapper .overlay-leaf {
     margin-left: 62px;
     top: 40px;
-    position: absolute;
+    position: absolute;   
 }
 
 
@@ -1850,6 +1850,7 @@ body {
     height: 408px;
     padding: 50px 20px;
     cursor: pointer;
+    position: relative;
 
     transition: all ease .3s;
 }
@@ -1863,7 +1864,6 @@ body {
 
 .working .tiles-wrapper .tile:hover .svg {
     filter: brightness(0) invert(1);
-
 }
 
 
@@ -1871,11 +1871,6 @@ body {
     color: #ffffff;
 }
 
-
-
-.working .tiles-wrapper .tile:hover #svg {
-    fill: whitesmoke;
-}
 
 
 .working .tiles-wrapper .tile .icons {
@@ -1917,6 +1912,72 @@ body {
     line-height: 30px;
     margin-top: 20px;
 }
+
+
+.working .tiles-wrapper .tile .overlay {
+    width: 95px;
+    height: 161px;
+    position: absolute;
+    right: 35px;
+    top: 112px;
+}
+
+
+.reliable {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+
+.reliable .image-wrapper {
+    max-width: 1260px;
+    height: 247px;
+    margin: 0 auto;
+    border-radius: 10px;
+    background-image: url('assets/unsplashplanting.png');
+}
+
+
+.reliable .image-wrapper .txt {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    height: 100%;
+    padding-right: 60px;
+}
+
+
+.reliable .image-wrapper .txt h1 {
+    margin-right: 85px;
+    color: #ffffff;
+    font-size: 33px;
+    font-weight: 700;
+    line-height: 45px;    
+}
+
+
+.reliable .image-wrapper .txt a {
+    border-radius: 15px 5px;
+    width: 157px;
+    height: 50px;
+    background-color: #ffffff;
+    box-shadow: 0px 10px 20px rgba(0, 115, 12, .15);
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    text-decoration: none;
+    color: var(--green);
+    font-size: 18px;
+    font-weight: 700;
+}
+
+
+.reliable .image-wrapper .txt a .fas {
+    margin-right: 11px;
+}
+
+
 
 
 
