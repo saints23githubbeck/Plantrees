@@ -1602,8 +1602,8 @@ body {
 }
 
 
-.services-provided .service-tiles .service-tile:hover body > section.services-provided > div > div:nth-child(1) > div > div > img {
-    fill: white;
+.services-provided .service-tiles .service-tile:hover .overlay-leaf .seedling-png {
+    filter: brightness(0) invert(1);
 }
 
 
@@ -1807,13 +1807,115 @@ body {
 .working {
     margin-top: 100px;
     font-family: 'Nunito Sans', sans-serif;
-    text-align: center;
 }
 
+
+.working .header {
+    text-align: center;
+}
 
 .working h1 {
     font-size: 45px;
     font-weight: 800;
+}
+
+
+.working h1 span {
+    color: var(--green);
+}
+
+
+.working #subheader {
+    font-size: 18px;
+    font-weight: 400;
+    color: var(--light-grey);
+    width: 72%;
+    margin: auto;
+    line-height: 30px;
+}
+
+
+.working .tiles-wrapper {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 0 126px;
+    margin-top: 50px;
+}
+
+
+.working .tiles-wrapper .tile {
+    box-shadow: 2px 11px 30px rgba(51, 51, 51, 0.08);
+    border-radius: 15px;
+    max-width: 300px;
+    height: 408px;
+    padding: 50px 20px;
+    cursor: pointer;
+
+    transition: all ease .3s;
+}
+
+
+.working .tiles-wrapper .tile:hover {
+    background-color: var(--green);
+    color: #ffffff;
+}
+
+
+.working .tiles-wrapper .tile:hover .svg {
+    filter: brightness(0) invert(1);
+
+}
+
+
+.working .tiles-wrapper .tile:hover .working .tiles-wrapper .tile .icons .right h1 {
+    color: #ffffff;
+}
+
+
+
+.working .tiles-wrapper .tile:hover #svg {
+    fill: whitesmoke;
+}
+
+
+.working .tiles-wrapper .tile .icons {
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.working .tiles-wrapper .tile .icons .right h1 {
+    color: #e3e3e3e3;
+    font-weight: 800;
+    font-size: 78px;
+    text-shadow: 1px 4px 4px rgba(0, 0, 0, .15);
+
+}
+
+
+.working .tiles-wrapper .tile .txt {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+.working .tiles-wrapper .tile .txt h1 {
+    font-size: 24px;
+    font-weight: 700;    
+    margin-top: 20px;
+}
+
+
+.working .tiles-wrapper .tile .txt p {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-top: 20px;
 }
 
 
