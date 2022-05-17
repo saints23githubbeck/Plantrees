@@ -2026,6 +2026,9 @@ body {
 .staff .tiles-wrapper .tile {
     max-width: 300px;
     border-radius: 10px;
+    position: relative;
+    cursor: pointer;
+    overflow-y: hidden;
 }
 
 
@@ -2034,6 +2037,87 @@ body {
     height: 100%;
     border-radius: 10px;
 }
+
+
+.staff .tiles-wrapper .tile:hover #info {
+    display: none;
+}
+
+
+.staff .tiles-wrapper .tile #info {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 90px;
+    width: 100%;
+    border-radius: 10px;
+    background-image: linear-gradient(6.68deg, #00730C 4.95%, rgba(251, 246, 238, 0) 264.79%);
+
+    transition: all ease .3s;
+}
+
+
+.staff .tiles-wrapper #info h1 {
+    font-size: 24px;
+    line-height: 33px;
+    color: #ffffff;
+    margin-top: 15px;
+}
+
+
+.staff .tiles-wrapper .tile #info p {
+    font-size: 18px;
+    font-weight: 400;
+    color: #ffffff;
+}
+
+
+.staff .tiles-wrapper .tile #overlay {
+    position: absolute;
+    left: 0;
+    top: 463px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    color: #ffffff;
+    height: 100%;
+    border-radius: 10px;
+    background-image: linear-gradient(6.68deg, #00730C 4.95%, rgba(251, 246, 238, 0) 264.79%);
+
+    transition: ease all .3s;
+}
+
+
+
+.staff .tiles-wrapper .tile #overlay h1 {
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+
+.staff .tiles-wrapper .tile #overlay .social-icons {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.staff .tiles-wrapper .tile #overlay .social-icons li {
+    list-style: none;
+    margin: 0 .5rem;
+    font-size: 20px;
+}
+
+
+.staff .tiles-wrapper .tile:hover #overlay {
+    top: 0;
+}
+
 
 
 
