@@ -1983,6 +1983,7 @@ body {
     font-family: 'Nunito Sans', sans-serif;
 }
 
+
 .staff h1 {
     font-size: 45px;
     font-weight: 800;
@@ -2009,6 +2010,30 @@ body {
     max-width: 956px;
 }
 
+
+.staff .txt-wrapper .green-btn {
+    height: 40px;
+}
+
+
+.staff .tiles-wrapper {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin-top: 50px;
+}
+
+
+.staff .tiles-wrapper .tile {
+    max-width: 300px;
+    border-radius: 10px;
+}
+
+
+.staff .tiles-wrapper .tile img {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
 
 
 
