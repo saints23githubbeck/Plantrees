@@ -2119,6 +2119,37 @@ body {
 }
 
 
+.clients-say {
+    height: 585px;
+    background-color: #E6F6EA;
+    padding: 100px 120px;
+    font-family: 'Nunito Sans', sans-serif;
+    margin-top: 100px;
+}
+
+
+.clients-say .text-wrapper .top h1 {
+    font-size: 45px;
+    font-weight: 800;
+    line-height: 61px;
+}
+
+.clients-say .text-wrapper .top h1 span {
+    color: var(--green);
+}
+
+
+.clients-say .text-wrapper .bottom p {
+    font-size: 18px;
+    font-weight: 400;
+    color: var(--light-grey);
+    line-height: 30px;
+    max-width: 956px;
+}
+
+
+
+
 
 
 
