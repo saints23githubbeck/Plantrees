@@ -2574,6 +2574,7 @@ body {
 .useful-links #wrapper {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    margin-top: 50px;
 }
 
 
@@ -2618,6 +2619,29 @@ body {
 
 .universal-footer .wrapper .popular-services .services li {
     list-style: none;
+}
+
+
+.universal-footer .bottom {
+    margin-top: 40px;
+}
+
+
+.universal-footer .bottom .copyright {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.universal-footer .bottom .copyright ul {
+    display: flex;
+}
+
+
+.universal-footer .bottom .copyright ul li {
+    margin: 0 1rem;
+    list-style: none;
+    cursor: pointer;
 }
 
 
