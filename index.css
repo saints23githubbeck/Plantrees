@@ -2312,6 +2312,156 @@ body {
 }
 
 
+.insight {
+    font-family: 'Nunito Sans', sans-serif;
+    margin-top: 100px;
+}
+
+
+.insight .header {
+    text-align: center;
+}
+
+
+.insight .header h1 {
+    font-size: 45px;
+    font-weight: 700;
+}
+
+
+.insight .header h1 span {
+    color: var(--green);
+}
+
+
+.insight .header p {
+    max-width: 1136px;
+    font-size: 18px;
+    font-weight: 400;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+
+.insight .tiles-wrapper {
+    display: grid;
+    padding: 0 120px;
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: 50px;
+}
+
+
+.insight .tiles-wrapper .tile {
+    max-width: 380px;
+    height: 549px;
+    border-radius: 10px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    color: #ffffff;
+
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    transition: all ease .3s;
+    cursor: pointer;
+}
+
+
+.insight .tiles-wrapper .tile .color {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-image:  linear-gradient(0deg, #FAFAFA, #FAFAFA);
+    z-index: -100;
+    border-radius: 10px;
+}
+
+
+.insight .tiles-wrapper .tile .text-overlay {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    padding: 100px 20px 0 20px;
+    z-index: 2;
+    border-radius: 10px;
+}
+
+
+.insight .tiles-wrapper .tile a {
+    width: 123px;
+    height: 27px;
+    background-color: var(--light-green);
+    box-shadow: 1px 2px 15px rgba(0, 0, 0, 0.15);
+    border-radius: 5px;
+    color: var(--green);
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.insight .tiles-wrapper .tile h2 {
+    margin-top: 70px;
+    font-size: 22px;
+    font-weight: 700;
+}
+
+
+.insight .tiles-wrapper .tile p {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+
+.insight .tiles-wrapper .tile hr {
+    margin-top: 70px;
+}
+
+
+.insight .tiles-wrapper .tile .bottom {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.insight .tiles-wrapper .tile .bottom p {
+    text-decoration: underline;
+}
+
+
+.insight .tiles-wrapper .tile .img {
+    min-height: 100%;
+    min-width: 100%;
+    border-radius: 10px;
+}
+
+
+.insight .tiles-wrapper .tile .img img {
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+}
+
+
+.insight .tiles-wrapper .tile:hover {
+    color: var(--green);   
+}
+
+
+.insight .tiles-wrapper .tile:hover .color {
+    z-index: 1;
+}
+
+
+
+
+
 
 
 
