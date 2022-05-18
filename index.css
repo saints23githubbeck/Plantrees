@@ -2285,6 +2285,7 @@ body {
 
 .FAQ .wrapper .left {
     flex: 2;
+    padding-right: 50px;
 }
 
 
@@ -2302,6 +2303,12 @@ body {
     width: 507px;
     height: 679px;
     background-color: #c4c4c4;
+}
+
+
+.FAQ .wrapper .left .accordion-wrapper .accordion-button[aria-expanded='true'] {
+    background-color: var(--green);
+    color: #ffffff;
 }
 
 
