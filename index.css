@@ -2348,11 +2348,12 @@ body {
     padding: 0 120px;
     grid-template-columns: repeat(3, 1fr);
     margin-top: 50px;
+    margin-bottom: 60px;
 }
 
 
 .insight .tiles-wrapper .tile {
-    max-width: 380px;
+    width: 380px;
     height: 549px;
     border-radius: 10px;
     margin: 0 auto;
@@ -2456,6 +2457,14 @@ body {
 
 .insight .tiles-wrapper .tile:hover .color {
     z-index: 1;
+}
+
+
+.icons-tray {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 90px;
+    margin-top: 100px;
 }
 
 
