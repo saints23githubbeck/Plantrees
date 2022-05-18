@@ -2555,6 +2555,7 @@ body {
 
 .universal-footer .socials .fab {
     font-size: 28px;
+    cursor: pointer;
 }
 
 
@@ -2619,17 +2620,26 @@ body {
 
 .universal-footer .wrapper .popular-services .services li {
     list-style: none;
+    cursor: pointer;
 }
 
 
 .universal-footer .bottom {
     margin-top: 40px;
+    padding-bottom: 50px;
 }
 
 
 .universal-footer .bottom .copyright {
     display: flex;
     justify-content: space-between;
+    margin-top: 30px;
+}
+
+
+.universal-footer .bottom .copyright p {
+    font-size: 14px;
+    font-weight: 400;
 }
 
 
@@ -2642,7 +2652,20 @@ body {
     margin: 0 1rem;
     list-style: none;
     cursor: pointer;
+    font-size: 14px;
+    font-weight: 400;
 }
+
+
+.universal-footer .wrapper .newsletter,
+.universal-footer .wrapper .contacts,
+.universal-footer .wrapper .useful-links,
+.universal-footer .wrapper .popular-services {
+    margin: 0 auto;
+}
+
+
+
 
 
 
