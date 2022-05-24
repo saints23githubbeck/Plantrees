@@ -1467,7 +1467,7 @@ body {
 }
 
 
-.hero-section .left .stats .stat .stat-no {
+.left .stats .stat .stat-no {
     width: 40px;
     height: 40px;
     border-radius: 50px;
@@ -1478,12 +1478,12 @@ body {
 }
 
 
-.hero-section .left .stats .stat .stat-txt {
+.left .stats .stat .stat-txt {
     margin-left: 1rem;
 }
 
 
-.hero-section .left .stats .stat .stat-txt p {
+.left .stats .stat .stat-txt p {
     font-weight: 700;
     font-size: 16px;
     color: var(--black);
@@ -1491,7 +1491,7 @@ body {
 }
 
 
-.hero-section .left .stats .stat .stat-no p {
+.left .stats .stat .stat-no p {
     font-size: 14px;
     line-height: 19.1px;
     color: var(--black);
@@ -2780,6 +2780,116 @@ body {
     max-width: 1260px;
     line-height: 25px;
 }
+
+
+.skills {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    font-family: 'Nunito Sans', sans-serif;
+    padding: 0 120px;
+    margin-top: 100px;
+}
+
+
+.skills .left {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 20px;
+}
+
+
+.skills .left h1 {
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 61px;
+}
+
+
+.skills .left p {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+
+.skills .left .stats  {
+    display: flex;
+    margin-top: 30px;
+}
+
+
+.skills .left .stats .stat {
+    display: flex;   
+}
+
+
+.skills .left .stats .stat .stat-no {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(52.91deg, rgba(0, 115, 12, 0) 9.89%, rgba(249, 249, 249, 0.9384) 88.56%);
+}
+
+
+
+.skills .left .stats .stat .txt {
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+}
+
+
+
+.skills .left .progress-bars .bar {
+    margin-top: 20px;
+}
+
+
+
+.skills .left .progress-bars .bar .info {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+
+.skills .left .progress-bars .progress {
+    background-color: #ffffff;
+    box-shadow: 0px 1px 7px rgba(0,0,0, .18);
+    border-radius: 12px;
+}
+
+
+.skills .left .progress-bars .progress-bar {
+    background-color: var(--green);
+    border-radius: 12px;
+}
+
+
+.skills .img .wrapper {
+    position: relative;
+    width: 490px;
+    height: 741px;
+    z-index: 20;
+}
+
+
+.skills .img .wrapper img {
+    width: 100%;
+    height: 100%;
+}
+
+
+.skills .img .overlay {
+    width: 366px;
+    height: 706px;
+    background-color: var(--green);
+    position: absolute;
+    z-index: -1;
+    top: -26px;
+    right: -19px;  
+}
+
 
 
 
