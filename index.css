@@ -2739,6 +2739,7 @@ body {
 .experience.about-us {
     position: relative;
     padding-top: 6rem;
+    margin-bottom: 200px;
 }
 
 
@@ -2752,6 +2753,32 @@ body {
     margin-bottom: 2rem;
     font-size: 45px;
     font-weight: 800;
+}
+
+
+.mission {
+    padding: 0 120px;
+    font-family: 'Nunito Sans',sans-serif;
+}
+
+
+.mission > div {
+    margin-top: 50px;
+}
+
+
+.mission > div > h1 {
+    font-size: 45px;
+    font-weight: 700;
+} 
+
+
+.mission > div > p {
+    font-size: 18px;
+    font-weight: 400;
+    color: var(--light-grey);
+    max-width: 1260px;
+    line-height: 25px;
 }
 
 
