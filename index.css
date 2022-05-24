@@ -2736,16 +2736,19 @@ body {
 }
 
 
-
 .experience.about-us {
     position: relative;
     padding-top: 6rem;
 }
 
-.experience #header {
+
+.experience.about-us #header-wrapper {
     position: absolute;
-    top: 10px;
-    left: 40%;
+    width: 100%;
+}
+
+
+.experience.about-us #header-wrapper h1 {
     margin-bottom: 2rem;
     font-size: 45px;
     font-weight: 800;
