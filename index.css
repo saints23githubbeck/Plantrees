@@ -2992,8 +2992,68 @@ body {
 }
 
 
+.outline .main-section .content .content-footer .left a {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 24px;
+    text-transform: uppercase;
+    color: var(--light-grey);
+}
+
+
+.outline .main-section .content .content-footer .left .icon {
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 20px;
+}
+
+
+.outline .main-section .content .content-footer .left .icon .fab {
+    color: #ffffff;
+}
+
+
+.outline .main-section .content .content-footer .left .icon.facebook {
+    background-image: linear-gradient(7.4deg, #2E4980 10.45%, #395795 90.43%);
+}
+
+
+.outline .main-section .content .content-footer .left .icon.twitter {
+    background-color: #009fee;
+}
+
+
+.outline .main-section .content .content-footer .left .icon.google {
+    background-color: #367cff;
+}
+
+
+.outline .main-section .content .content-footer .left .icon.printerest {
+    background-color: #ef1408;
+}
+
+
+.outline .main-section .content .content-footer .left .icon.linkedin {
+    background-color: #0079b2;
+}
+
+
 .outline .main-section .content .content-footer .right {
     display: flex;
+}
+
+
+.outline .main-section .content .content-footer .right a {
+    border-radius: 5px;
+    text-decoration: none;
+    color: var(--black);
+    background-color: #fbeee7;   
+    padding: 5px 15px;
+    margin: 0 10px;
 }
 
 
