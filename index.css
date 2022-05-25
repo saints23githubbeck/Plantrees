@@ -3057,9 +3057,79 @@ body {
 }
 
 
-.outline .sidebar {
-    max-width: 340px;
+.projects.details h2 {
+    text-align: flex-start;
 }
+
+
+.outline .sidebar {
+    width: 400px;
+}
+
+
+.outline .sidebar .project-info {
+    padding: 40px 30px;
+}
+
+
+.outline .sidebar .project-info h1 {
+    font-size: 33px;
+    font-weight: 700;
+    line-height: 45px;
+}
+
+
+.outline .sidebar .project-info > p {
+    font-size: 18px;
+    font-weight: 400;
+    color: var(--light-grey);
+    line-height: 30px;
+}
+
+
+.outline .sidebar .input {
+    width: 100%;
+    margin-top: 30px;
+}
+
+
+.outline .sidebar .input label {
+    font-size: 18px;
+    font-weight: 700;
+    color: var(--black);
+}
+
+
+.outline .sidebar .input input {
+    width: 340px;
+    border: none;
+    outline: none;
+    padding: 5px 0;
+    border-bottom: 1px solid var(--green);
+}
+
+
+.outline .sidebar .brochure {
+    padding: 40px 30px;
+
+}
+
+
+.outline .sidebar .brochure h1 {
+    font-size: 33px;
+    font-weight: 700;
+    line-height: 45px;
+}
+
+
+.outline .sidebar .brochure > p {
+    font-size: 18px;
+    font-weight: 400;
+    color: var(--light-grey);
+    line-height: 30px;
+}
+
+
 
 
 
