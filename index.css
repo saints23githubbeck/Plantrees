@@ -3135,6 +3135,12 @@ body {
 }
 
 
+.outline .sidebar .brochure .actions h1 {
+    color: var(--dark-green);
+    margin-bottom: -15px;
+}
+
+
 .outline .sidebar .brochure .actions .action-btn {
     min-width: 100%;
     display: flex;
@@ -3143,11 +3149,15 @@ body {
     border-radius: 5px;
     padding: 10px 20px;
     text-decoration: none;
-    margin-top: 30px;
     background-color: #d9f1e0;
     align-items: center;
     transition: all ease .3s;
     color: var(--black);
+}
+
+
+.outline .sidebar .brochure .actions .action-btn:not(:first-child) {
+    margin-top: 30px;
 }
 
 
@@ -3167,6 +3177,7 @@ body {
     padding: 40px 30px;
     border-radius: 5px;
     background-color: #f6f6f6;
+    margin-top: 50px;
 }
 
 
@@ -3214,7 +3225,6 @@ body {
     flex: 3;
     color: var(--green);
 }
-
 
 
 .outline .more .contact-us .info p {
