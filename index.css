@@ -3111,7 +3111,6 @@ body {
 
 .outline .sidebar .brochure {
     padding: 40px 30px;
-
 }
 
 
@@ -3129,6 +3128,107 @@ body {
     line-height: 30px;
 }
 
+
+.outline .sidebar .brochure .actions {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.outline .sidebar .brochure .actions .action-btn {
+    min-width: 100%;
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    border-radius: 5px;
+    padding: 10px 20px;
+    text-decoration: none;
+    margin-top: 30px;
+    background-color: #d9f1e0;
+    align-items: center;
+    transition: all ease .3s;
+    color: var(--black);
+}
+
+
+.outline .sidebar .brochure .actions .action-btn:hover {
+    background-color: var(--green);
+    color: #ffffff;
+}
+
+
+.outline .sidebar .brochure .actions .green-btn {
+    width: 149px;
+    margin-top: 30px;
+}
+
+
+.outline .more {
+    padding: 40px 30px;
+    border-radius: 5px;
+    background-color: #f6f6f6;
+}
+
+
+.outline .more h1 {
+    font-size: 33px;
+    font-weight: 700;
+    color: var(--black);
+}
+
+
+.outline .more p {
+    font-size: 18px;
+    font-weight: 400;
+    color: var(--light-grey);
+}
+
+
+.outline .more .contact-us {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+
+.outline .more .contact-us .icon {
+    flex: 1;
+    position: relative;
+    cursor: pointer;
+}
+
+
+.outline .more .contact-us .icon .inner {
+    background-color: var(--green);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 48px;
+    width: 48px;
+    border-radius: 50px;
+    color: #ffffff;
+}
+
+
+.outline .more .contact-us .info {
+    flex: 3;
+    color: var(--green);
+}
+
+
+
+.outline .more .contact-us .info p {
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: -20px;
+    color: var(--green);
+}
+
+
+.outline .more .contact-us .info small {
+    font-size: 18px;
+    font-weight: 400;
+}
 
 
 
