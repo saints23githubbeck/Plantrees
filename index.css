@@ -1254,6 +1254,12 @@ body {
 }
 
 
+.footer .useful-links #wrapper li a {
+    text-decoration: none;
+    color: var(--light-grey);
+}
+
+
 .footer .useful-links #wrapper .right {
     margin-left: 20px;
 }
