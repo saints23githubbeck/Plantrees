@@ -3295,6 +3295,11 @@ body {
 
 
 /* blog-details template styling */
+.outline .main-section.blog-details {
+    font-size: 18px;
+}
+
+
 .outline .main-section .image-container.blog-details {
     height: 484px;
     background-image: url('https://images.unsplash.com/photo-1555955208-94f6fafea771?ixlib=rb-1.2.1&raw_url=true&q=80&fm=jpg&crop=entropy&cs=tinysrgb&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774');
@@ -3315,6 +3320,34 @@ body > div > div.main-section > div.content.info {
     justify-content: space-between;
     padding: 0 30px;
 }
+
+
+body > div > div.main-section > div.content.quote {
+    background-color: #f6f6f6;
+    border-radius: 10px;
+    padding: 37px 52px;
+    position: relative;
+    font-size: 18px;
+}
+
+
+body > div > div.main-section > div.content.quote .before-quotes {
+    position: absolute;
+    left: 5px;
+    top: 0;
+    color: var(--green);
+    font-size: 40px;
+}
+
+
+body > div > div.main-section > div.content.quote .after-quotes {
+    position: absolute;
+    right: 5px;
+    bottom: 0;
+    color: var(--green);
+    font-size: 40px;
+}
+
 
 
 .outline .main-section .content.info .left {
