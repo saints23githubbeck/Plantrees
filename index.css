@@ -1453,6 +1453,11 @@ body > section.home-page > nav > div.nav-links > div > ul li:hover {
 }
 
 
+.nav-bar .nav-links li a:hover {
+    color: var(--green);
+}
+
+
 .hero-section {
     min-height: 665px;
     width: 100%;
@@ -3624,7 +3629,8 @@ body > div > div.main-section > div:nth-child(6)> div > div.right {
 }
 
 
-.outline .main-section .user-form .top input {
+.outline .main-section .user-form .top input,
+.outline .main-section .user-form .middle input  {
     border: 1px solid var(--light-grey);
     border-radius: 5px;
     width: 360px;
