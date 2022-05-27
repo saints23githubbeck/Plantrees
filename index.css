@@ -46,6 +46,40 @@ body {
     display: flex;
     font-family: 'Nunito Sans', sans-serif;
     color: var(--black);
+    align-items: center;
+}
+
+
+
+.nav-links .dropdown button {
+    background-color: transparent;
+    color: var(--black);
+    font-weight: 500;
+    border: none;
+}
+
+
+.nav-links .dropdown .btn:focus,
+.nav-links .dropdown .btn:hover {
+    outline: none;
+    border: none;
+    box-shadow: none;
+}
+
+
+body > section.home-page > nav > div.nav-links > div > ul {
+    border-radius: 0;
+    font-size: 18px;
+}
+
+
+body > section.home-page > nav > div.nav-links > div > ul li {
+    font-size: 14px;
+}
+
+
+body > section.home-page > nav > div.nav-links > div > ul li:hover {
+    background-color: var(--green);
 }
 
 
@@ -1408,6 +1442,13 @@ body {
     font-weight: 400;
     color: var(--black);
     cursor: pointer;
+}
+
+
+
+.nav-bar .nav-links li a {
+    text-decoration: none;
+    color: var(--black);
 }
 
 
