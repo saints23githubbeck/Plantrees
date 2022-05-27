@@ -3404,6 +3404,11 @@ body > div > div.main-section > div.content.quote .after-quotes {
 }
 
 
+.outline .main-section .content.info a {
+    color: var(--light-grey);
+}
+
+
 body > div > div.main-section > div:nth-child(6)> div > div.left {
     background-image: url('https://images.unsplash.com/photo-1621460248083-6271cc4437a8?ixlib=rb-1.2.1&raw_url=true&q=80&fm=jpg&crop=entropy&cs=tinysrgb&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387');
 }
@@ -3543,6 +3548,11 @@ body > div > div.main-section > div:nth-child(6)> div > div.right {
 }
 
 
+.outline .main-section .comments {
+    margin-top: 100px;
+}
+
+
 .outline .main-section .comments h1 {
     font-size: 45px;
     font-weight: 700;
@@ -3590,6 +3600,44 @@ body > div > div.main-section > div:nth-child(6)> div > div.right {
 .outline .main-section .comments .comment .comment-body .head h3 {
     font-size: 24px;
     font-weight: 700;
+}
+
+
+.outline .main-section .user-form {
+    width: 100%;
+}
+
+
+.outline .main-section .user-form h1 {
+    font-size: 45px;
+    font-weight: 700;
+    color: var(--black);
+    margin-bottom: 50px;
+}
+
+
+.outline .main-section .user-form .top {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+
+.outline .main-section .user-form .top input {
+    border: 1px solid var(--light-grey);
+    border-radius: 5px;
+    width: 360px;
+    padding: 8px 15px;
+}
+
+
+.outline .main-section .user-form .bottom textarea {
+    width: 100%;
+    border: 1px solid var(--light-grey);
+    border-radius: 5px;
+    padding: 8px 15px;
+    margin-bottom: 30px;
 }
 
 
