@@ -42,13 +42,21 @@
                 </svg>  </a> 
             </div>
             <div class="nav-links">
-                <li class="navlink">Home</li>
-                <li class="navlink">About Us</li>
-                <li class="navlink">Service</li>
-                <li class="navlink">Page</li>
-                <li class="navlink">Blog</li>
-                <li class="navlink">FAQ</li>
-                <li class="navlink">Contact</li>
+                <div class="dropdown">
+                    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                      Home
+                    </button>
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                      <li><a class="dropdown-item" href="index.html">Home 1</a></li>
+                      <li><a class="dropdown-item" href="home-page.html">Home 2</a></li>
+                    </ul>
+                </div>         
+                <li class="navlink"><a href="about-us.html">About Us</a></li>
+                <li class="navlink"><a href="service.html">Service</a></li>
+                <li class="navlink"><a href="">Page</a></li>
+                <li class="navlink"><a href="blog.html">Blog</a></li>
+                <li class="navlink"><a href="#">FAQ</a></li>
+                <li class="navlink"><a href="#">Contact</a></li>
             </div>
             <div class="nav-anchor">
                 <a href="#" class="green-btn">
