@@ -3757,7 +3757,50 @@ body > div > div.main-section > div:nth-child(6)> div > div.right {
 
 /* FAQ template styling */
 
+.outline.FAQ .main-section .content.intro h1 {
+    font-size: 45px;
+    font-weight: 800;
+}
 
+
+.outline.FAQ .main-section .content.intro h1 span {
+    color: var(--green);
+}
+
+
+.outline.FAQ .sidebar .search {
+    padding: 40px 30px;
+}
+
+
+.outline.FAQ .sidebar .search h1 {
+    font-size: 33px;
+    font-weight: 700;
+    color: var(--black);
+}
+
+
+.outline.FAQ .sidebar .search .wrapper {
+    width: 100%;
+    display: flex;
+    border: 1px solid #c5c5c5;
+    box-shadow: 2px 4px 20px rgba(0, 0, 0, .05);
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 15px;
+    border-radius: 5px;
+}
+
+
+.outline.FAQ .sidebar .search .wrapper input {
+    border: none;
+}
+
+
+.outline.FAQ .sidebar .search .wrapper .FAQ-search:focus,
+.outline.FAQ .sidebar .search .wrapper .FAQ-search:active {
+    outline: none;
+}
 
 
 
