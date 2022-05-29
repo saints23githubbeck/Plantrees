@@ -3039,12 +3039,12 @@ body > section.footer > div.top > div.useful-links > div > div > ul > li > a {
 }
 
 
-.outline .main-section .content .points {
+.points {
     margin-top: 40px;
 }
 
 
-.outline .main-section .content .points li {
+.points li {
     list-style: none;
     font-size: 18px;
     font-weight: 400;
@@ -3055,7 +3055,7 @@ body > section.footer > div.top > div.useful-links > div > div > ul > li > a {
 }
 
 
-.outline .main-section .content .points li .fas {
+.points li .fas {
     color: #0c4b35;
     margin-right: 15px;
 }
@@ -3819,6 +3819,30 @@ body > div > div.main-section > div:nth-child(6)> div > div.right {
 
 .outline.FAQ .sidebar .search .wrapper .fas {
     color: var(--green);
+}
+
+
+/* terms & conditions template styling */
+
+.content-wrapper {
+    padding: 0 120px;
+    font-family: 'Nunito Sans', sans-serif;
+    margin-top: 70px;
+}
+
+
+.content-wrapper .content h1 {
+    font-size: 45px;
+    font-weight: 700;
+}
+
+
+.content-wrapper .content p {
+    font-size: 18px;
+    font-weight: 400;
+    color: var(--light-grey);
+    max-width: 1260px;
+    margin-top: 30px;
 }
 
 
