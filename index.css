@@ -3763,8 +3763,22 @@ body > div > div.main-section > div:nth-child(6)> div > div.right {
 }
 
 
+.outline.FAQ .main-section .content.intro p {
+    font-size: 18px;
+    font-weight: 400;
+    color: var(--light-grey);
+}
+
+
 .outline.FAQ .main-section .content.intro h1 span {
     color: var(--green);
+}
+
+
+.outline.FAQ .main-section .content.qstn-form h1 {
+    font-weight: 700;
+    font-size: 45px;
+    color: var(--black);
 }
 
 
@@ -3800,6 +3814,11 @@ body > div > div.main-section > div:nth-child(6)> div > div.right {
 .outline.FAQ .sidebar .search .wrapper .FAQ-search:focus,
 .outline.FAQ .sidebar .search .wrapper .FAQ-search:active {
     outline: none;
+}
+
+
+.outline.FAQ .sidebar .search .wrapper .fas {
+    color: var(--green);
 }
 
 
