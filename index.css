@@ -3846,6 +3846,62 @@ body > div > div.main-section > div:nth-child(6)> div > div.right {
 }
 
 
+/* error 404 template styling */
+
+.error-wrapper {
+    text-align: center;
+    margin-top: 70px;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+
+.error-wrapper h1 {
+    font-size: 186px;
+    font-weight: 700;
+    background: -webkit-linear-gradient( #fbf6ee, #00730c);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+}
+
+
+.error-wrapper h2 {
+    font-size: 78px;
+    font-weight: 700;
+}
+
+
+.error-wrapper p {
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: 400;
+    color: var(--light-grey);
+}
+
+
+.error-wrapper .input-wrapper {
+    display: flex;
+    max-width: 390px;
+    margin: 0 auto;
+    justify-content: space-between;
+    border: 1px solid var(--light-grey);
+    align-items: center;
+    padding: 12px 15px;
+    border-radius: 5px;
+}
+
+
+.error-wrapper .input-wrapper input {
+    border: none;
+}
+
+
+.error-wrapper .input-wrapper input:focus,
+.error-wrapper .input-wrapper input:active {
+    outline: none;
+}
+
+
 
 
 
