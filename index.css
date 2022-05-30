@@ -3860,6 +3860,7 @@ body > div > div.main-section > div:nth-child(6)> div > div.right {
     font-weight: 700;
     background: -webkit-linear-gradient( #fbf6ee, #00730c);
   -webkit-background-clip: text;
+        background-clip: text;
   -webkit-text-fill-color: transparent;
 
 }
@@ -3899,6 +3900,13 @@ body > div > div.main-section > div:nth-child(6)> div > div.right {
 .error-wrapper .input-wrapper input:focus,
 .error-wrapper .input-wrapper input:active {
     outline: none;
+}
+
+.error-wrapper .img-wrapper {
+    max-width: 1260px;
+    height: 345px;
+    margin: 0 auto;
+    margin-top: 30px;
 }
 
 
